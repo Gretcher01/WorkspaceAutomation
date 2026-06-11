@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Shared Node Styles */
+.input-node.react-flow__node-dragging {
+  border: 2px solid #00152c;
+  box-shadow: 0 0 8px rgba(0, 86, 179, 0.5);
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.input-node {
+  padding: 15px;
+  text-align: left;
+}
+
+.title-container {
+  background-color: #e1deee;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: purple;
+}
+
+.icon {
+  margin-right: 8px;
+  color: purple;
+  font-size: 1.5rem;
+}
+
+.description {
+  font-size: 12px;
+  color: gray;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.name-field {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.name-input {
+  text-align: center;
+  color: blue;
+  background-color: lavender;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px;
+}
+
+.label {
+  font-size: 0.9rem;
+  font-weight: medium;
+  color: gray;
+  margin-left: -3px;
+}
+
+.dropdown-label {
+  display: inline-block;
+  padding: 4px 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #dbeafe;
+  background-color: #1d4ed8;
+  border-radius: 4px;
+}
+
+.dropdown-select {
+  width: 100%;
+  padding: 2px;
+  border: 1px solid #d1d5db;
+}
+
+
+.image-preview {
+  margin-top: 10px;
+}
+
+
