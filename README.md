@@ -1,4 +1,4 @@
-# ⚡ CortexFlow: Groundbreaking Low-Code AI Platform
+# ⚡ CortexFlow:  Low-Code AI Platform
 
 **CortexFlow** is a sleek, high-performance, low-code platform designed for visual AI workflow creation. Utilizing a node-based drag-and-drop architecture, CortexFlow allows developers and AI engineers to build, validate, and execute complex multi-step reasoning pipelines, reducing time-to-setup by **60%**.
 
